@@ -1,0 +1,25 @@
+body {
+	background-color:none;
+}
+
+#header {
+	width:100%;
+	background:beige;
+}
+
+#nav {
+	width:100%;
+	background-color:aqua;
+}
+
+.menu {
+	display:flex;
+	background:#d7e6f;
+	justify-content: space-around;
+	list-style-type: none
+}
+
+#main-content-wrapper {
+	background-color:greenyellow;
+	width: 80%;
+}
