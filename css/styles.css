@@ -6,7 +6,7 @@ White:fff
 */
 } 
 image-content >img{
-	max-width: 200px;
+	max-width: px;
 
 }
 body {
@@ -25,32 +25,29 @@ body {
     text-align: center;
     position: relative;transform: translateY(50%)
 } 
-nav {
+#nav {
 	width: 100%;
     background-color: #228B22;
     min-height: 80px;
     height: auto;
 }
-nav > ul {
+#nav > ul {
 	margin-left: 2em;
     padding: 15px 0 15px 0;
     margin: 0;
     text-align: center
 }
-nav > ul > button {
-	margin-left: 25em;
-    min-width: 178px;
-    color: #000000;
-    background-color: #228B22;
-    border: none;
-    padding: 15px;
-    padding: 15px 32px;
-    -webkit-transition: background-color 2s;
-    transition: background-color .25s;
-    border-bottom: 2px solid #228b22;
+#nav > ul > button {
+ min-width: 120px;
+ color: #fff;
+ background-color: #000000;
+ border: none;
+ padding: 15px 32px;
+ transition: backgroundcolor .25s;
+
 }
-nav > ul > button:hover {
-	background-color: #fff;
+#nav > ul > button:hover {
+	background-color: #000000;
 }
 /*
 .menu {
