@@ -4,7 +4,7 @@
 	<meta charset="utf-8" content="text/html">
 	<meta content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<meta content="IE=EDGE" http-equiv="X-UA-Compatible"><!--Links to css files or font files-->
-	<link href="css/styles.css" rel="stylesheet" type='text/css'>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<title></title>
 </head>
@@ -21,7 +21,10 @@
 			<div class='col-md-12'>
 				<nav id='nav'>
 					<div class='button-wrap' style="margin-left: 48em">
-						<button>Application</button> <button>Services</button> <button>Contact Info</button> <button>Offer Details</button>
+						<button data-toggle="modal" data-target="#Application_modal">Application</button> 
+						<button data-toggle="modal" data-target="#Services_modal">Services</button> 
+						<button data-toggle="modal" data-target="#ContactInfo_modal">Contact Info</button> 
+						<button data-toggle="modal" data-target="#OfferDetails_modal">Offer Details</button>
 					</div>
 				</nav>
 			</div>
@@ -45,14 +48,9 @@
 			<div class='col-md-4'>
 				<div id="aside-content-wrapper">
 					<aside id='aside-right'>
-						<h3>Latest Work</h3>
+						<h3>Reviews from Customers</h3>
 						<ul id="latest-work">
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li>From TX: I recommend Smith's lawn and care for all the lawn and shrub care. From FL: They are professional and answer any questions that you have.We had dead spots in our yard and were told it was due to lack of sun and lots of trees. Smith's lawn and care listened and fixed the problems that were not due to lack of sunlight.</li>
 						</ul>
 					</aside>
 				</div>
@@ -72,5 +70,82 @@
 			<h1>©2017 Smith's Lawn and Care Partnership.</h1>
 		</footer>
 	</div>
+<!-- End of Container -->
+<!-- Modal Application-->
+<div class="modal fade" id="Application_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- Modal Services -->
+<div class="modal fade" id="Services_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- Modal Services -->
+<div class="modal fade" id="ContactInfo_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- Modal Offer Details -->
+<div class="modal fade" id="OfferDetails_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+		<script src="javascript/jquery.min.js"></script>
+				<script src="javascript/bootstrap.min.js"></script>
+				<script src="javascript/main.js"></script>
 </body>
 </html>

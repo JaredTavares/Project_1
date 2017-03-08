@@ -7,6 +7,7 @@ White:fff
 } 
 image-content >img{
 	max-width: 200px;
+
 }
 body {
 	background-color:none;
@@ -142,6 +143,7 @@ nav > ul > button:hover {
 	padding-bottom: 15px;
 	width: 100%;
 	border-bottom: none;
+	text-align: center;
 }
 #latest-work > li:before {
 	content: "";
